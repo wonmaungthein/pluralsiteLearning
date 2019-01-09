@@ -1,14 +1,17 @@
 {
   "name": "jsfornodewithmocha",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha './test/**/*.spec.js'"
   },
   "author": "",
   "license": "ISC",
-  "dependencies":{
-    "mocha":"3.2.0"
-  }
+  "dependencies": {
+    "mocha": "3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }
